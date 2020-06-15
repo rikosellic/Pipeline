@@ -1,5 +1,5 @@
 # Pipeline
-Verilog Code for the 5-stage pipeline CPU project in the course EI332(2020), SJTU
+Verilog Code for the 5-stage pipeline CPU project in the course EI332, SJTU, 2020 Spring
 
 ## 文件说明
 sc_datamem.mif 与 sc_instmem.mif 在source文件夹中, sc_instmem_IO.mif 为验证IO扩展所用代码
