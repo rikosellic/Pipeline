@@ -13,3 +13,6 @@ flush：当ID阶段检测到pcsource不为0，IF阶段已取出的指令需要�
 
 ## Notice
 直通与跳转(冲刷)均在ID阶段处理, 因此可能会导致lw指令比最佳实现方案多出一个停顿周期
+
+## Reference
+https://github.com/cmciris/PipelinedCPU
