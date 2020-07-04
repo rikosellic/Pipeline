@@ -1,8 +1,10 @@
 # Pipeline
 Verilog Code for the 5-stage pipeline CPU project in the course EI332, SJTU, 2020 Spring
 
-##设计说明
+## 设计说明
 本设计包含外围设备，10个SW对应两个输入端口，6个HEX对应三个输出端口
+
+进行了数据冒险和控制冒险的硬件处理，汇编代码相比单周期无需更改
 
 实验期末测试使用此设计获得了正确结果
 
