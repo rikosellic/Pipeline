@@ -1,6 +1,7 @@
 # Pipeline
 Verilog Code for the 5-stage pipeline CPU project in the course EI332, SJTU, 2020 Spring
 
+##设计说明
 实验期末测试使用此设计获得了正确结果
 
 ## 文件说明
