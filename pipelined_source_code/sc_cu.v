@@ -103,7 +103,7 @@ module sc_cu (op, func, rs, rt, rsrtequ, ewreg, em2reg, ern, mwreg, mm2reg, mrn,
 		end
 	end
 	
-	assign wpcir = ~((mwreg & (mrn != 0) & mm2reg &((i_rs & (mrn == rs)) | (i_rt & (mrn == rt))))|(ewreg & (ern != 0) & em2reg &((i_rs & (ern == rs)) | (i_rt & (ern == rt)))));
+	assign wpcir = ~(ewreg & (ern != 0) & em2reg &((i_rs & (ern == rs)) | (i_rt & (ern == rt))));
 	assign flush = pcsource !=2'b00;
 	
 endmodule
